@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TIPE-X</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='main2.js'></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Shojumaru&family=Spicy+Rice&display=swap"
+    rel="stylesheet">
+
+<body>
+
+  <div class="navbar" id="myNavbar">
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">About
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="biographis.html">Biographis</a>
+        <a href="pictures.html">Pictures</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Band News
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="tour.html">Tour Date & Locations</a>
+
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Discography
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="tracks.html">Sample Tracks</a>
+        <a href="lyrics.html">Lyrics</a>
+        <a href="video.html">Video</a>
+      </div>
+    </div>
+    <a href="contact.html">Contact</a>
+    <a href="store.html">Store</a>
+
+  </div>
+  <header>
+    <h2>Lirik</h2>
+    <style>
+      header {
+        color: white;
+        background-image: url(../images/Group\ 1.png);
+        background-size: cover;
+        font-size: 45px;
+        padding-bottom: 25px;
+      }
+
+      @media screen and (max-width: 600px) {
+        header {
+          background-image: url(../images/lr.jpg);
+        }
+      }
+    </style>
+  </header>
+  <div class="container">
+    <div class="song-list">
+      <ul>
+        <li onclick="displayLyrics('Genit')">Genit</li>
+        <li onclick="displayLyrics('Mawar Hitam')">Mawar Hitam</li>
+        <li onclick="displayLyrics('Selamat Jalan')">Selamat Jalan</li>
+        <li onclick="displayLyrics('Kamu Ngga Sendirian')">Kamu Ngga Sendirian</li>
+        <li onclick="displayLyrics('Salam Rindu')">Salam Rindu</li>
+        <li onclick="displayLyrics('Sakit Hati')">Sakit Hati</li>
+      </ul>
+    </div>
+    <div class="lyrics">
+      <style>
+        p#song-lyrics {
+          color: white;
+          font-family: 'Ultra', serif;
+        }
+
+        h2#song-title {
+          font-family: 'Shojumaru', cursive;
+          color: white;
+        }
+      </style>
+      <h2 id="song-title"></h2>
+      <p id="song-lyrics"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2023 All Rights Reserved
+      This site is maintained by jidan
+      kalbar - Indonesia</p>
+    <div class="social-media-buttons">
+      <a href="https://web.facebook.com/TIPEX.BAND?_rdc=1&_rdr"><img
+          src="https://i0.wp.com/sguru.org/wp-content/uploads/2018/02/icon-facebook-black.png?ssl=1"></a>
+      <a href="https://www.instagram.com/tipexofficial/"><img
+          src="https://i0.wp.com/sguru.org/wp-content/uploads/2018/01/instagram-logo-sketch.png"></a>
+      <a href="https://www.youtube.com/@TipeXOfficial"><img
+          src="https://i0.wp.com/sguru.org/wp-content/uploads/2018/02/videos-2277016_960_720.png?ssl=1"></a>
+      <a href="https://twitter.com/TipexBand"><img
+          src="https://i0.wp.com/sguru.org/wp-content/uploads/2018/02/twitter-icon-circle-logo.png?ssl=1"></a>
+    </div>
+  </footer>
+
+</body>
+
+</html>

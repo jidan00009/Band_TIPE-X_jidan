@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TIPE-X</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="main2.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Shojumaru&family=Spicy+Rice&display=swap"
+    rel="stylesheet">
+  <style>
+    .navbar .search-container {
+      float: right;
+    }
+
+    .navbar input[type="text"] {
+      padding: 6px;
+      margin-top: 8px;
+      font-size: 17px;
+      border: none;
+    }
+
+    .navbar .search-container button {
+      padding: 6px 10px;
+      margin-top: 8px;
+      margin-left: 4px;
+      background: #ddd;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+      float: right;
+    }
+
+    .navbar .cart-icon {
+      float: right;
+      color: #fff;
+      font-size: 25px;
+
+      margin-right: 16px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .navbar input[type="text"] {
+        font-size: 10px;
+        margin-top: 13px;
+      }
+
+      .navbar .search-container button {
+        font-size: 10px;
+        margin-top: 13px;
+      }
+
+      .navbar .cart-icon {
+        font-size: 20px;
+      }
+
+      .navbar.responsive .search-container {
+        float: right;
+        display: block;
+        text-align: center;
+        position: relative;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+
+      .navbar.responsive .search-container input[type="text"],
+      .navbar.responsive .search-container button {
+        display: inline-block;
+        vertical-align: middle;
+        width: auto;
+      }
+
+      .navbar.responsive .search-container input[type="text"],
+      .navbar.responsive .search-container button {
+        display: inline-block;
+        vertical-align: middle;
+        width: auto;
+      }
+
+      .navbar.responsive .cart-icon {
+        float: right;
+        display: block;
+        text-align: center;
+        position: relative;
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+      }
+    }
+  </style>
+
+<body>
+
+  <div class="navbar" id="myNavbar">
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">About
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="biographis.html">Biographis</a>
+        <a href="pictures.html">Pictures</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Band News
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="tour.html">Tour Date & Locations</a>
+
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Discography
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="tracks.html">Sample Tracks</a>
+        <a href="lyrics.html">Lyrics</a>
+        <a href="video.html">Video</a>
+      </div>
+    </div>
+    <a href="contact.html">Contact</a>
+    <a href="store.html">Store</a>
+    <div>
+      <a href="#" class="cart-icon"><i class="fa fa-shopping-cart"></i></a>
+    </div>
+
+
+    <!-- <form action="store.html" metode="get">
+      <div class="search-container">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        <input type="text" placeholder="Search...">
+      </div>
+    </form> -->
+    <form>
+      <div class="search-container">
+        <button type="button" onclick="search()"><i class="fa fa-search"></i></button>
+        <input type="text" id="searchInput" placeholder="Search...">
+      </div>
+    </form>
+
+
+  </div>
+  <header>
+    <h2>Store</h2>
+    <style>
+      @media screen and (max-width: 600px) {
+        .navbar a.icon {
+          float: left;
+          display: block;
+          size: 30px;
+        }
+      }
+
+      header {
+        color: white;
+        background-image: url(../images/Rectangle\ 2.png);
+        background-size: cover;
+        font-size: 55px;
+        padding-bottom: 5px;
+      }
+
+      @media screen and (max-width: 600px) {
+        header {
+          font-size: 35px;
+
+        }
+      }
+    </style>
+  </header>
+  <section class="products">
+
+    <div class="product">
+      <img src="../images/image 6.png" alt="Product 1">
+      <h3>Topi Baseball TIPE-X</h3>
+      <p>Rp69.520</p>
+      <button
+        onclick="window.location.href='https://shopee.co.id/Topi-Baseball-TIPE-X-TIPE-X-Keren-Pria-Dan-Wanita-Distro-WARUNG-KAOS-i.23776169.4644989490?sp_atk=d0c7e205-c170-4042-a456-a40a13f2dadf&xptdk=d0c7e205-c170-4042-a456-a40a13f2dadf';">
+        Add to Cart
+      </button>
+    </div>
+    <div class="product">
+      <img src="../images/image 4.png" alt="Product 2">
+      <h3>Sweater Tipe-X Band</h3>
+      <p>Rp144.000</p>
+      <button
+        onclick="window.location.href='https://shopee.co.id/Sweater-Tipe-X-Band-Ska-TipeX-Crewneck-Premium-Cotton-Fleece-Sweatshirt-Bisa-COD--i.333481005.23931475871?sp_atk=27c06e15-e51b-45b6-95ad-4d36fa4362fa&xptdk=27c06e15-e51b-45b6-95ad-4d36fa4362fa';">
+        Add to Cart
+      </button>
+
+    </div>
+    <div class="product">
+      <img src="../images/image 3.png" alt="Product 3">
+      <h3>zipper jaket sweater tipe-x</h3>
+      <p>Rp170.000</p>
+      <button
+        onclick="window.location.href='https://shopee.co.id/zipper-jaket-sweater-tipe-x-i.19343709.1850634270?sp_atk=d112eb0d-6812-41bf-97be-ac6105d235e9&xptdk=d112eb0d-6812-41bf-97be-ac6105d235e9';">
+        Add to Cart
+      </button>
+
+    </div>
+    <div class="product">
+      <img src="../images/image 5.png" alt="Product 4">
+      <h3>Kaos Distro TIPE-X PECUNDANG JADI PEMENANG</h3>
+      <p>RpRp85.000</p>
+      <button
+        onclick="window.location.href='https://shopee.co.id/Kaos-Distro-Pria-TIPE-X-PECUNDANG-JADI-PEMENANG-Premium-Tshirt-Pria-Bahan-Cotton-Combad-24s-kaos-tipe-x-Kaos-X-Friends-X-Angels-Kaos-Music-i.723757206.17191036381?sp_atk=b61ca547-f02f-458c-841b-1bb73e40527d&xptdk=b61ca547-f02f-458c-841b-1bb73e40527d';">
+        Add to Cart
+      </button>
+    </div>
+    <div class="product">
+      <img src="../images/image 7.png" alt="Product 5">
+      <h3>Kaos Distro TIPE-X KAMU NGGA SENDIRIAN</h3>
+      <p>Rp85.000</p>
+      <button
+        onclick="window.location.href='https://shopee.co.id/Kaos-Distro-TIPE-X-KAMU-NGGA-SENDIRIAN-kaos-SKA-Kaos-Music-band-Kaos-Pria-i.723757206.20074917367?sp_atk=30c9a0d6-7d70-46ae-8af6-e5d83a186f8f&xptdk=30c9a0d6-7d70-46ae-8af6-e5d83a186f8f';">
+        Add to Cart
+      </button>
+    </div>
+    <div class="product">
+      <img src="../images/Group 2.png" alt="Product 6">
+      <h3>Hoodie/Jaket Tipe-X</h3>
+      <p>Rp85.500</p>
+      <button
+        onclick="window.location.href='https://shopee.co.id/Hoodie-Jaket-Tipe-X-Simpel-i.519956908.20065787002?xptdk=f59271c2-c9d4-4a31-8ba6-8ae053d55a3b';">
+        Add to Cart
+      </button>
+
+    </div>
+  </section>
+  <footer>
+    <p>© 2023 All Rights Reserved
+      This site is maintained by jidan
+      kalbar - Indonesia</p>
+    <div class="social-media-buttons">
+      <a href="https://web.facebook.com/TIPEX.BAND?_rdc=1&_rdr"><img
+          src="https://i0.wp.com/sguru.org/wp-content/uploads/2018/02/icon-facebook-black.png?ssl=1"></a>
+      <a href="https://www.instagram.com/tipexofficial/"><img
+          src="https://i0.wp.com/sguru.org/wp-content/uploads/2018/01/instagram-logo-sketch.png"></a>
+      <a href="https://www.youtube.com/@TipeXOfficial"><img
+          src="https://i0.wp.com/sguru.org/wp-content/uploads/2018/02/videos-2277016_960_720.png?ssl=1"></a>
+      <a href="https://twitter.com/TipexBand"><img
+          src="https://i0.wp.com/sguru.org/wp-content/uploads/2018/02/twitter-icon-circle-logo.png?ssl=1"></a>
+    </div>
+  </footer>
+
+  <script>
+    function search() {
+      // Tangkap input pencarian dari kotak teks
+      var searchText = document.getElementById('searchInput').value.toLowerCase();
+
+      // Ambil semua produk yang akan dicari
+      var products = document.getElementsByClassName('product');
+
+      // Loop melalui setiap produk dan periksa apakah ada kata kunci pencarian yang cocok
+      for (var i = 0; i < products.length; i++) {
+        var productName = products[i].getElementsByTagName('h3')[0].textContent.toLowerCase();
+
+        if (productName.includes(searchText)) {
+          products[i].style.display = 'block';
+        } else {
+          products[i].style.display = 'none';
+        }
+      }
+    }
+  </script>
+</body>
+
+
+</html>
