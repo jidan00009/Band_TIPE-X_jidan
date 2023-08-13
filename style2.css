@@ -34,7 +34,7 @@ header {
   top: 0;
   width: 100%;
   overflow: hidden;
-  background-color: #3b3a3aeb;
+  /* background-color: #3b3a3aeb; */
   /* font-family: Arial; */
   position: fixed;
   z-index: 100;
